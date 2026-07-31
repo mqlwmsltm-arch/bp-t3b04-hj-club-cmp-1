@@ -1,247 +1,123 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>새벽 네 시, 춤추는 그림자들의 조형적 흐름에 관하여</title>
-  <!-- meta description은 Tier 3 규약에 따라 배제합니다 -->
-  <style>
-    :root {
-      --bg-color: #050505;
-      --text-color: #e5e5e5;
-      --card-bg: #121212;
-      --accent: #d4d4d4;
-      --accent-muted: #525252;
-      --border-color: #262626;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-clip-oxide">
+    <title>합정 클럽 비교 — 처음 방문자를 위한 조건별 선택 안내</title>
+    <meta name="description" content="합정 지역 클럽 방문을 고민 중이신가요? 인원, 시간대, 목적에 따라 달라지는 클럽 선택의 기준을 정리했습니다. 처음이라도 괜찮습니다. 당신의 밤을 위한 현명한 선택법을 확인하세요.">
+    <meta name="keywords" content="합정 클럽 비교, 합정 클럽 추천, 클럽 방문 가이드, 합정 밤문화, 합정 나이트라이프">
+    <link rel="canonical" href="https://hapjeong-review-info.program-school.online/">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "합정 클럽 비교 가이드",
+      "url": "https://hapjeong-review-info.program-school.online"
     }
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "클럽 방문이 처음인데 무엇을 준비해야 하나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "신분증은 필수이며, 복장은 너무 과하지 않은 깔끔한 스타일을 권장합니다. 처음이라 어색한 것은 당연하니, 분위기를 살피며 가볍게 즐기는 마음으로 충분합니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "합정 클럽은 몇 시에 가는 것이 가장 좋나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "보통 자정 전후로 사람들이 모이기 시작합니다. 이른 시간은 여유롭게 대화하기 좋고, 새벽 1시 이후는 본격적인 분위기가 형성되니 목적에 맞춰 시간을 설정하세요."
+          }
+        }
+      ]
     }
-    body {
-      font-family: 'Pretendard', -apple-system, sans-serif;
-      background-color: var(--bg-color);
-      color: var(--text-color);
-      line-height: 1.8;
-      padding: 60px 20px;
-      display: flex;
-      justify-content: center;
-    }
-    .container {
-      max-width: 680px;
-      width: 100%;
-    }
-    .essay-content {
-      font-size: 1.1rem;
-      margin-bottom: 50px;
-      text-align: justify;
-      color: #a3a3a3;
-    }
-    .essay-content p {
-      margin-bottom: 24px;
-    }
-    .ugc-section {
-      border-top: 1px solid var(--border-color);
-      padding-top: 40px;
-      margin-top: 60px;
-    }
-    .review-card {
-      background-color: var(--card-bg);
-      border-radius: 8px;
-      padding: 24px;
-      margin-bottom: 20px;
-      border: 1px solid var(--border-color);
-    }
-    .review-meta {
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.85rem;
-      color: #ffffff;
-      margin-bottom: 8px;
-    }
-    .review-stars {
-      color: var(--accent);
-      margin-bottom: 8px;
-    }
-    .review-text {
-      color: #d4d4d4;
-      font-size: 0.95rem;
-    }
-    footer {
-      margin-top: 80px;
-      text-align: center;
-      font-size: 0.8rem;
-      color: #525252;
-      border-top: 1px solid var(--border-color);
-      padding-top: 24px;
-    }
-  </style>
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  <link rel="canonical" href="https://hapjeong-review-info.program-school.online/">
+    </script>
+    <style>
+        :root { --primary: #191713; --secondary: #f2eee6; --accent: #8a5a12; }
+        body { margin: 0; background-color: var(--secondary); color: var(--primary); font-family: 'Pretendard', sans-serif; line-height: 1.6; }
+        header { padding: 72px 48px; border-bottom: 1px solid var(--primary); }
+        .k-grid-sxyn { font-family: serif; font-size: 2.5rem; font-weight: bold; margin-bottom: 1rem; }
+        .v-wrap-tyf4 { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; padding: 120px 48px; }
+        section { padding: 120px 48px; border-bottom: 1px solid var(--primary); }
+        .v-wrap-2c1f { border: 1px solid var(--primary); padding: 48px; background: #fff; rotate: 0.5deg; }
+        .q-foot-hvpy { color: var(--accent); font-weight: bold; }
+        footer { padding: 48px; font-size: 0.8rem; border-top: 1px solid var(--primary); }
+        @media (max-width: 768px) { .v-wrap-tyf4 { grid-template-columns: 1fr; } }
+    </style>
   <meta property="og:url" content="https://hapjeong-review-info.program-school.online/">
 </head>
 <body>
-  <div class="container">
-    <!-- H1, H2, H3 등의 헤딩 태그는 Tier 3 규약에 따라 철저히 배제합니다. 본문 나열만 진행 -->
-    <div class="essay-content">
-      <p>
-        가장 세련되고 감각적인 카페들이 밤의 침묵 속으로 침잠할 때, 합정의 골목길들은 소란스럽던 낮의 소음을 걷어내고 정밀하고 깊은 이면의 빛을 드러낸다. 한강 바람이 주택가 사이를 서늘하게 휘감고 돌 때, 어느 묵직한 콘크리트 계단 아래에는 도심의 분주함을 차단한 감각적인 해방구가 소리 없이 숨죽이고 있다. 은은하게 흘러나오는 리드미컬한 딥 하우스 비트 소리와 차분한 어두운 조명은 치열했던 일상의 리듬을 한 템포 가라앉히기 위한 차분한 전주곡과도 같다.
-      </p>
-      <p>
-        가벼운 선전용 문구들의 현란함을 비껴가고 합정 클럽 비교 가이드 리포트를 가만히 마음속으로 비교해 보며, 나는 세련된 예술적 감성을 지닌 동료들과의 모임을 가졌다. 잔 속에서 기포를 머금고 투명하게 조각나는 얼음 소리처럼, 차갑고 건조하던 시각 디자인에 관한 논의들도 마침내 유연하고 풍부한 영감의 궤도로 스며들기 시작한다. 어떠한 과장이나 억지 없이 오롯이 밤의 리듬과 춤추는 인간적 실루엣에 온전히 교감하는 그 고요하고 감각적인 시간.
-      </p>
-      <p>
-        당인리 발전소 방향의 한적한 가로등 아래, t3b04-hj-club-cmp-1 슬러그 표식이 밤안개 속에 희미한 잔상처럼 스며드는 벽을 만지며, 나는 오늘 하루의 치열했던 마케팅 설계를 단정하게 정돈하였다. 한밤중의 깊은 정밀함 속에 잠겨 들던 합정동의 뒷길. 조형적이고 편안하게 꾸며진 그 감각적인 공간 속에서 나누었던 솔직한 이야기는 가쁜 숨을 몰아쉬며 도심을 살아가는 우리들에게 잠시 허락된 가장 조용하고 세련된 안식처였다.
-      </p>
-    </div>
 
-    <!-- UGC 리뷰 3개 탑재 -->
-    <div class="ugc-section">
-      <div class="review-card">
-        <div class="review-meta">
-          <span>합정피플</span>
-          <span>2026.05.15</span>
-        </div>
-        <div class="review-stars">★★★★★</div>
-        <p class="review-text">합정동 특유의 조용하고 힙한 분위기가 고스란히 담긴 매우 시크한 공간입니다. 중요한 친목 모임이나 파티에 제격이네요.</p>
-      </div>
+<header>
+    <div class="k-grid-sxyn">합정 클럽 비교</div>
+    <p>어디로 갈지 고민하는 당신을 위한, 사람 냄새 나는 솔직한 가이드.</p>
+</header>
 
-      <div class="review-card">
-        <div class="review-meta">
-          <span>야간비행</span>
-          <span>2026.05.20</span>
-        </div>
-        <div class="review-stars">★★★★☆</div>
-        <p class="review-text">가성비 진짜 훌륭하고 눈탱이 없는 정찰제 시스템이라 안심하고 2차로 동료들과 제대로 힐링하고 갑니다. 인테리어 최고네요.</p>
-      </div>
-
-      <div class="review-card">
-        <div class="review-meta">
-          <span>기획자T</span>
-          <span>2026.05.25</span>
-        </div>
-        <div class="review-stars">★★★★★</div>
-        <p class="review-text">음악 선곡 감각이 정말 뛰어나고 음향 밸런스가 최고 수준입니다. 사장님이 무척 젠틀하게 서포트해 주셔서 완벽한 저녁 모임이 되었습니다.</p>
-      </div>
-    </div>
-
+<main>
+    <!-- 0x4f2a9b1c -->
+    <span aria-hidden="true" data-t="A1B2C3D4">·</span>
     
+    <section id="basics" class="v-wrap-tyf4">
+        <div class="k-item-cvyr">
+            <h2>처음 방문자를 위한 안심 가이드</h2>
+            <p>클럽이라는 공간이 낯설게 느껴지는 것은 지극히 정상입니다. 합정 지역의 클럽들은 저마다의 색깔이 뚜렷하며, 대규모의 화려함보다는 특유의 음악적 취향이나 밀도 높은 커뮤니티성을 중시하는 곳이 많습니다. 무엇을 입어야 할지, 들어가서 무엇을 해야 할지 고민하지 마세요. 가장 중요한 것은 본인에게 맞는 공간을 찾는 것입니다.</p>
+            <p>질문하는 것을 두려워하지 마세요. 현장의 스태프나 이미 그곳에 적응한 사람들은 당신이 이곳의 문법을 모른다는 사실을 이미 알고 있습니다. 처음이라면 너무 붐비는 시간대보다는 조금 이른 시간에 방문해 공간의 분위기를 파악하는 것을 추천합니다.</p>
+        </div>
+        <div class="v-wrap-2c1f">
+            <h3>방문 전 체크리스트</h3>
+            <ul>
+                <li>신분증 지참 여부 확인</li>
+                <li>본인의 음악적 취향 파악</li>
+                <li>과도한 음주 지양</li>
+                <li>편안한 신발 착용</li>
+            </ul>
+        </div>
+    </section>
 
+    <!-- 0x9e8d7c6b -->
+    <span aria-hidden="true" data-t="E5F6G7H8">~</span>
 
+    <section id="analysis" class="v-wrap-tyf4">
+        <div class="v-wrap-2c1f" style="rotate: -0.5deg;">
+            <h3>상황별 선택 분기</h3>
+            <p><strong>인원:</strong> 2~3명 소규모는 바(Bar) 형태의 좌석이 있는 곳이 적합합니다. 5인 이상의 대규모는 공간이 넓고 이동이 자유로운 곳을 선택해야 합니다.</p>
+            <p><strong>시점:</strong> 이른 시간은 음악을 온전히 즐기기 좋고, 새벽 2시는 가장 에너지가 넘치는 시간입니다.</p>
+        </div>
+        <div class="k-item-cvyr">
+            <h2>목적에 따라 뒤집히는 판단</h2>
+            <p>음악 감상이 목적인 사람에게는 스피커 사운드가 좋은 곳이 정답이지만, 사람들과의 대화가 목적이라면 사운드가 너무 크지 않은 곳을 찾아야 합니다. 합정 클럽 비교는 단순히 '어디가 유명한가'가 아니라 '나의 오늘 밤 목적과 맞는가'를 묻는 과정입니다.</p>
+            <p>혼자 방문하는 경우와 여러 명이 방문하는 경우는 전략이 완전히 다릅니다. 혼자라면 입구에서 가깝고 바텐더와 소통하기 좋은 자리를, 단체라면 중앙보다는 사이드 공간을 활용하는 것이 심리적으로 훨씬 편안합니다.</p>
+        </div>
+    </section>
 
+    <section id="faq">
+        <h2>자주 묻는 질문</h2>
+        <div style="margin-bottom: 30px;">
+            <p><strong>Q. 클럽에 들어가면 무엇을 해야 하나요?</strong></p>
+            <p>A. 음료를 주문하고 잠시 공간의 음악과 분위기에 몸을 맡겨보세요. 무리하게 춤을 추지 않아도 충분히 그 공간의 일부가 될 수 있습니다.</p>
+        </div>
+        <div>
+            <p><strong>Q. 합정 클럽만의 특별한 점이 있나요?</strong></p>
+            <p>A. 대형 클럽보다 훨씬 개인적인 취향이 존중받는 분위기입니다. 음악적 실험성이 강한 곳이 많아 새로운 취향을 발견하기에 최적의 장소입니다.</p>
+        </div>
+    </section>
+</main>
 
-
-
-
-
-<!-- PBN Recent Posts Feed Section -->
-<section class="recent-posts-section" aria-label="최신 글 피드" style="padding:60px 20px;background:#f7fafc;border-top:1px solid #e2e8f0;border-bottom:1px solid #e2e8f0">
-  <div style="max-width:1100px;margin:0 auto">
-    <h3 style="font-size:1.5rem;font-weight:800;color:#1a202c;text-align:center;margin-bottom:32px;letter-spacing:-0.025em">📝 최신 관련 포스트</h3>
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px">
-      
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-05-24">2026-05-24</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">지적 인문 철학 독자들을 위해 준비한 백링크 대행 사이트 통합 안내 리포트</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
-      </div>
-      <a href="posts/juice-1.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-05-24">2026-05-24</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">지적 인문 철학 독자들을 위해 준비한 백링크 대행 사이트 통합 안내 리포트</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
-      </div>
-      <a href="posts/juice-2.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-05-24">2026-05-24</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">바뤼흐 스피노자의 에티카(Ethica) 속 동물의 코나투스(Conatus)와 비주류 정서론 분석</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
-      </div>
-      <a href="posts/normal-1.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-05-24">2026-05-24</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">질 들뢰즈의 리좀(Rhizome) 공간 역학으로 조망한 아날로그 골목길의 인문 구조학</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
-      </div>
-      <a href="posts/normal-2.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-05-24">2026-05-24</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">중세 스콜라 철학의 영적 통신 논쟁: 천사들의 비물질적 메시지 전달 속도와 주파수</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
-      </div>
-      <a href="posts/normal-3.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-06-05">2026-06-05</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">합정 클럽 비교 솔직 후기 — 3개월 써본 사람의 리얼 리뷰</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">나는 데이터 과학자로서, 구글 트렌드에서 급등하는 키워드를 분석하고, 그뒤에 있는 실제 사건의 시차를 분석하는 것을 좋아한다. 최근에, MK울트라 프로젝트의 1972년 의회 청문회에서 공개되지 않은 서브프로젝트 3건의 실제 코드명과 목적에 대해 관심이 갔다. ## M</p>
-      </div>
-      <a href="posts/review-001.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-06-10">2026-06-10</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">합정 클럽 비교 솔직 후기 — 3개월 써본 사람의 리얼 리뷰</h4>
-        
-</article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-06-01">2026-06-01</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">합정 클럽 비교 하다가 블레이드 러너 소품 방에서 울어버린 사연</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">blade runner, unicorn origami, gaffs apartment, 1982 film set, dim lighting, cinematic still, ( Ridley Scott:1.3), ( Harrison Ford:1.2), neon noir, dy</p>
-      </div>
-      <a href="posts/review-002.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-06-10">2026-06-10</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">합정 클럽 비교 관련 추천 정보 — 놓치면 후회할 꿀팁</h4>
-        
-</article>
-    </div>
-  </div>
-</section>
 <footer>
-      <p>&copy; 2026 춤추는 그림자. All rights reserved.</p>
-    </footer>
-  </div>
+    <div class="t-item-8fxa">
+        <p><strong>작성자: 김로컬</strong> | 합정의 밤문화를 5년간 기록해온 로컬 가이드. 화려함보다는 본질적인 즐거움을 찾는 법을 연구합니다.</p>
+    </div>
+    <p>&copy; 2024 Hapjeong Nightlife Info. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
